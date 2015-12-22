@@ -1,0 +1,10 @@
+.command {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+}
+
+.command[data-command=forward] {
+  top: 10px;
+  left: 35%;
+}

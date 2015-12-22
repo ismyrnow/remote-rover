@@ -1,0 +1,16 @@
+{
+  "name": "remote-rover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ishmael Smyrnow",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "johnny-five": "^0.9.17"
+  }
+}
