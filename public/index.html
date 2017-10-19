@@ -1,9 +1,23 @@
-<button class="command" data-command="forward">Forward</button>
-<button class="command" data-command="reverse">Reverse</button>
-<button class="command" data-command="left">Left</button>
-<button class="command" data-command="right">Right</button>
+<meta name = "viewport" content = "user-scalable=no, width=device-width">
+<link rel="stylesheet" href="css/style.css" />
 
-<link href="css/style.css" />
+<div class="button-container">
+  <div class="row">
+    <div></div>
+    <button class="command forward" data-command="forward"></button>
+    <div></div>
+  </div>
+  <div class="row">
+    <button class="command left" data-command="left"></button>
+    <div></div>
+    <button class="command right" data-command="right"></button>
+  </div>
+  <div class="row">
+    <div></div>
+    <button class="command reverse" data-command="reverse"></button>
+    <div></div>
+  </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/controller.js"></script>
